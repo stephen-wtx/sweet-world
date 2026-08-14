@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweet World — Premium Gelato</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Font: handwriting/script for logo + elegant serif for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./hero.css">
+</head>
+<body>
+  <header class="hero-header">
+    <nav class="nav" aria-label="Navegação principal">
+      <div class="logo">Sweet World</div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="site-navigation">
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main class="hero">
+      <section class="hero-left">
+        <p class="eyebrow">BEM VINDO À SWEET WORLD</p>
+        <h1 class="headline">Sorvete que desperta desejo</h1>
+        <p class="lead">Texturas cremosas e ingredientes selecionados em combinações pensadas para surpreender o paladar.</p>
+        <div class="cta-wrap">
+          <button class="cta" id="ctaExplore">Explorar sabores</button>
+        </div>
+      </section>
+
+      <section class="hero-right">
+        <div class="carousel" aria-label="Galeria de sorvetes" role="region">
+          <div class="carousel-track">
+            <div class="slide"><img src="assets/imgs/ice-1.png" alt="Gelato 1"></div>
+            <div class="slide"><img src="assets/imgs/ice-2.png" alt="Gelato 2"></div>
+            <div class="slide"><img src="assets/imgs/ice-3.png" alt="Gelato 3"></div>
+            <div class="slide"><img src="assets/imgs/ice-4.png" alt="Gelato 4"></div>
+            <div class="slide"><img src="assets/imgs/ice-5.png" alt="Gelato 5"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </header>
+
+  </header>
+
+  <section id="catalogo" class="catalog-section">
+    <div class="container">
+      <header class="catalog-header">
+        <p class="catalog-eyebrow">CATÁLOGO</p>
+        <h2 class="catalog-title">Escolha o seu momento.</h2>
+        <p class="catalog-lead">Uma seleção cuidadosa de sabores artesanais para cada instante, com uma textura cremosa e um acabamento refinado.</p>
+      </header>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-1.png" alt="Velvet Vanilla"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Velvet Vanilla</h3>
+              <p class="product-short">Baunilha cremosa com notas suaves de caramelo.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">350 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Gelado feito com fava de baunilha Madagáscar e um toque de caramelo salgado para uma textura sedosa e envolvente.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Velvet Vanilla" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-5.png" alt="Hazelnut Noir"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Hazelnut Noir</h3>
+              <p class="product-short">Avelãs torradas e cacau profundo, textura aveludada.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">390 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Blend de avelãs selecionadas, cacau belga e creme fresco, com um sabor intenso e elegante.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Hazelnut Noir" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-3.png" alt="Citrus Sorbet"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Citrus Sorbet</h3>
+              <p class="product-short">Cítricos equilibrados, refrescância fina.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">320 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Sorbet de laranja sanguínea e limão siciliano, com acidez elegante e final vibrante.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Citrus Sorbet" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-4.png" alt="Salted Caramel"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Salted Caramel</h3>
+              <p class="product-short">Caramelo rico com pitada de sal marinho.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">370 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Caramelo cozido lentamente com manteiga e sal marinho, criando uma profundidade cremosa e irresistível.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Salted Caramel" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-7.png" alt="Berry Royale"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Berry Royale</h3>
+              <p class="product-short">Frutos vermelhos intensos com final delicado.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">360 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Framboesa, amora e um toque de limão para um perfil frutado, leve e refinado.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Berry Royale" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="media"><img src="assets/imgs/catalogo/ice-6.png" alt="Midnight Chocolate"></div>
+          <div class="meta">
+            <div class="meta-top">
+              <h3 class="product-name">Midnight Chocolate</h3>
+              <p class="product-short">Chocolate intenso com textura sedosa.</p>
+            </div>
+            <div class="meta-bottom">
+              <span class="price">400 MZN</span>
+              <button class="toggle-desc" aria-expanded="false">Ver descrição</button>
+            </div>
+            <div class="product-extra" aria-hidden="true">
+              <p>Cacau single-origin com final rico e persistente, perfeito para um momento decadente e sofisticado.</p>
+            </div>
+            <a class="btn btn-primary buy-btn" data-product="Midnight Chocolate" href="#">Comprar</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about-section">
+    <div class="container about-inner">
+      <div class="about-copy">
+        <p class="about-eyebrow">SOBRE NÓS</p>
+        <h2 class="about-title">Mais do que gelado.<br>Uma experiência para saborear.</h2>
+        <p class="about-text">Na Sweet World, acreditamos que um bom sorvete não é apenas uma sobremesa. É textura, sabor, memória e aquele pequeno momento de prazer no meio do dia.</p>
+
+        <div class="brand-pillars" aria-label="Pilares da marca">
+          <div class="pillar">
+            <span class="pillar-index">01</span>
+            <div class="pillar-copy">
+              <h3>INGREDIENTES</h3>
+              <p>Sabores cuidadosamente selecionados e combinações equilibradas.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-index">02</span>
+            <div class="pillar-copy">
+              <h3>CRIATIVIDADE</h3>
+              <p>Uma coleção que mistura clássicos e sabores com personalidade.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-index">03</span>
+            <div class="pillar-copy">
+              <h3>EXPERIÊNCIA</h3>
+              <p>Cada detalhe pensado para tornar cada momento mais especial.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="signature">Your sweetest moment starts here.</div>
+      </div>
+
+      <div class="about-visual">
+        <div class="about-image-wrap">
+          <img src="assets/imgs/catalogo/ice-2.png" alt="Sorvete premium em composição editorial">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact-section">
+    <div class="container contact-inner">
+      <div class="contact-copy">
+        <p class="contact-eyebrow">CONTACTE-NOS</p>
+        <h2 class="contact-title">Vamos tornar o seu dia mais doce.</h2>
+        <p class="contact-text">Quer fazer um pedido, conhecer os nossos sabores ou simplesmente falar connosco? Estamos por aqui.</p>
+
+        <a class="contact-cta" href="#" data-whatsapp="true">Falar pelo WhatsApp</a>
+
+        <div class="contact-meta">
+          <div class="meta-item">
+            <span class="meta-icon" aria-hidden="true">☎</span>
+            <div>
+              <span class="meta-label">CONTACTO</span>
+              <a href="tel:+258XXXXXXXXX">+258 85 024 4716</a>
+            </div>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+</svg>
+</span>
+            <div>
+              <span class="meta-label">LOCALIZAÇÃO</span>
+              <span>Praça da Liberdade, Pemba</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-visual">
+        <div class="contact-photo-wrap">
+          <img src="assets/imgs/Comptoir crème glacée.jpeg" alt="Sweet World local editorial image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-wrap">
+        <div class="footer-brand">Sweet World</div>
+        <div class="footer-signature">Your sweetest moment starts here.</div>
+      </div>
+
+      <a class="footer-instagram" href="#" aria-label="Instagram Sweet World">
+        <span class="instagram-badge"><i class="bi bi-instagram"></i></span>
+        <span>Instagram</span>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Sweet World. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="./hero.js" defer></script>
+</body>
+</html>
