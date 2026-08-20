@@ -175,6 +175,8 @@ body {
 }
 
 .nav-menu a {
+  position: relative;
+
   color: var(--accent);
   text-decoration: none;
   font-size: 15px;
@@ -192,10 +194,32 @@ body {
   transform: translateY(-6px);
 }
 
+.nav-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+
+  width: 100%;
+  height: 2px;
+
+  background: #fff;
+  border-radius: 999px;
+
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform .35s cubic-bezier(.2, .9, .2, 1);
+}
+
 .nav-menu a:hover {
   color: #fff;
   transform: translateY(-3px);
 }
+
+.nav-menu a:hover::after {
+  transform: scaleX(1);
+}
+
 
 
 /* =========================================================

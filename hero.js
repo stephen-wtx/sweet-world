@@ -12,7 +12,7 @@
   const slideCount = slides.length;
 
   const TRANSITION_MS = 1000;
-  const DISPLAY_MS = 3000;
+  const DISPLAY_MS = 1000;
   const EASING = 'cubic-bezier(.22,.9,.26,1)';
 
   function applyHeroEntrance() {
